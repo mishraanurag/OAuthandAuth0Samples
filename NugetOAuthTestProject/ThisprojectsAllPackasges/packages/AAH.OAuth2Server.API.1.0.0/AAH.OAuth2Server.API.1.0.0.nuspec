@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AAH.OAuth2Server.API</id>
+    <version>1.0.0</version>
+    <title>AAH.OAuth2ServerAPIPackage</title>
+    <authors>amishra</authors>
+    <owners>amishra</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This Package contains source files and all dependencies required to create and host Owin OAuth2 based Middleware Service which need to be used to create Access-Token based on Identity.</description>
+    <summary>Package for MVC WebAPI Project for creating OWIN.OAuth2 based Authorization Server</summary>
+    <releaseNotes>This is 1st Standard (Thin sliced) version only for Web APIs</releaseNotes>
+    <copyright>Ameriprise Auto &amp; Home</copyright>
+    <language>en-US</language>
+    <tags>OAuth, OAuth2, Owin, Token</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Owin" version="1.0" />
+        <dependency id="Microsoft.Owin" version="3.0.1" />
+        <dependency id="Microsoft.Owin.Security" version="3.0.1" />
+        <dependency id="Microsoft.Owin.Security.OAuth" version="3.0.1" />
+        <dependency id="Microsoft.Owin.Host.SystemWeb" version="3.0.1" />
+        <dependency id="Microsoft.AspNet.WebApi.Owin" version="5.2.3" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
